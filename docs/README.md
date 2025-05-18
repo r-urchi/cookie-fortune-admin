@@ -1,25 +1,27 @@
-# [Deprecating] Admin Example
+# 🥠 Cookie Fortune Admin
 
-_We're working on our new design system. Please get in touch if you are part of VTEX product team and working on an admin app. If you are external to VTEX you can still use this repo._
+Esta app Admin permite gestionar los registros de frases de la entidad “CF” (Cookie Fortunes).
 
-An example admin app that adds a menu button to the admin sidebar and a navigation via parameter example.
+---
 
-### How to develop admins
+### ✨ Funcionalidades
 
-1. Admins always declare routes in `/admin/app/<route>`
+- Visualizar mensajes que existen en Master Data.
+- Agregar nuevos mensajes.
+- Eliminar mensajes individualmente.
 
-2. Declare the `admin` builder in your manifest
+---
 
-3. When installed, the user navigates to `/admin/<route>`, but your app runs in an iframe that points to `/admin/app/<route>`.
+### ⚡ Quickstart
 
-4. You can develop directly in the `/admin/app` route for convenience, but don't forget to test it inside the iframe. :)
+1. Ejecutar `vtex link` para vincular la app al workspace actual.
 
-### Quickstart
+2. Acceder a la app en:  
+   `https://<workspace>--<account>.myvtex.com/admin/app/cookie-fortune-admin`
 
-1. Clone this repo
+---
 
-2. `yarn --cwd react/` for code completion
+### 📋 Requisitos
 
-3. `vtex link`
-
-4. Navigate to `workspace--account.myvtex.com/admin/app/example`
+- Contar con una entidad creada en Master Data para almacenar los mensajes.
+- Contar con una AppKey y AppToken para realizar la gestión de datos (Incluirlos dentro del archivo `actions.ts`)
