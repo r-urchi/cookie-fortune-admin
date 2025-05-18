@@ -1,0 +1,9 @@
+{
+  "admin-example.navigation.label-group": "Cookie Fortune",
+  "admin-example.navigation.label-table": "Cookie Fortune",
+  "admin-example.navigation.search.kws": "test, mock, fake",
+  "admin-example.navigation.details.search.kws": "details, mock, test, hello",
+  "admin-example.navigation.table.search.kws": "table, mock, test, bye",
+  "admin-example.hello-world": "Cookie Fortune",
+  "admin-example.details": "Details page"
+}
